@@ -1,0 +1,7 @@
+
+# Allocating Sensor Network Resources Using an Auction-Based Protocol
+
+Wireless sensor networks are being increasingly used for remote environmental monitoring. Despite advances in technology, there will always be a disparity between the number of competing sensor devices and the amount of network resources available. Auction-based strategies have been used in numerous applications to provide efficient/optimal solutions for determining how to fairly distribute system resources. This paper investigates the suitability of using online auctions to allow sensors to acquire preferential access to network resources. A framework is presented that allocates network priority to sensor devices based on their characteristics such as cost, precision, location, significant changes to readings, and amount of data collected.
+
+These characteristics are combined to form the value for a particular sensor's bid in an auction. The sensor with the highest bid wins preferential access to the network. Priority can be dynamically updated over time with regard to these characteristics, changing conditions for the phenomenon under observation, and also with input from a back-end environmental model. We present an example scenario for monitoring a flood's progress down a river to illustrate how the proposed auction-based system operates. A series of simulations were undertaken with a preliminary auction structure to examine how the system functions under different conditions.
+
